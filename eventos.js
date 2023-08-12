@@ -6,6 +6,7 @@ divsaludar.addEventListener('click', () => {
 });
 
 function saludar(){
+    event.stopPropagation();
     alert('¡Hola! Soy un botón.');
 }
 
